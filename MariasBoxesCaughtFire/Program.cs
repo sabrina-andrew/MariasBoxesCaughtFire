@@ -10,7 +10,7 @@ namespace MariasBoxesCaughtFire
             //leaving her with 22 boxes. With how many did she start?
 
             int boxesAfterFire = 22;
-            int startingBoxes = 22 * 2;
+            int startingBoxes = boxesAfterFire * 2;
             Console.WriteLine("Maria started with " + startingBoxes + " boxes.");
         }
     }
